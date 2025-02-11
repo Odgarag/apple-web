@@ -251,8 +251,7 @@
     position: relative;
     display: flex;
     gap: 18px;
-    margin-left: 18px;
-    
+    margin-left: 18px;  
 }
 .img1 {
     background-image: url(./image/link1.jpeg);
@@ -308,5 +307,95 @@
  .dot:hover {
   background-color: #717171;
 }
-
+.see2 {
+    overflow: auto;
+    margin-bottom: 18px;
+    margin-top: 12px;
+}
+.scroll2 {
+    width: 2000px;
+    height: 134px;
+    position: relative;
+    display: flex;
+    gap: 18px;
+    margin-left: 18px;  
+}
+.zurag1 {
+    background-image: url(./image/alpha.jpeg);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag2{
+    background-image: url(./image/alpha2.webp);
+    background-size: cover;
+    height: 134px;
+    width: 234px;
+}
+.zurag3 {
+    background-image: url(./image/alpha3.png);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag4 {
+    background-image: url(./image/alpha4.webp);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag5 {
+    background-image: url(./image/alpha5.webp);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag6 {
+    background-image: url(./image/alpha6.jpeg);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag7 {
+    background-image: url(./image/alpha7.webp);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+.zurag8 {
+    background-image: url(./image/alpha8.webp);
+    height: 134px;
+    width: 234px;
+    background-size: cover;
+}
+@media only screen and (min-width: 390px){
+    .container1 {
+        width: 100%;
+        /* padding-top: 350px;   */
+        margin-top: 12px;
+        background-image: url(./image/pad/iphone16pro.png);
+        background-repeat: no-repeat; 
+        background-size: cover;   
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+    .container2 {
+        width: 100%;
+        /* padding-top: 350px;   */
+        margin-top: 12px;
+        background-image: url(./image/pad/iphone16.png);
+        background-repeat: no-repeat; 
+        background-size: cover;   
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+    }
+}
 
