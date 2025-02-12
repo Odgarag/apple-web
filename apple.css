@@ -10,6 +10,11 @@
   justify-content: flex-end;
   gap: 17px;
 }
+/* .tools {
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+} */
 .text {
   height: 37px;
   font-size: 14px;
@@ -582,4 +587,17 @@
   .name {
     font-size: 42px;
   }
+}
+@media only screen and (min-width: 1000px){
+  
+    .nav {
+        display: flex;
+        /* justify-content: center; */
+        
+    }  
+    .tools {
+        /* visibility:initial; */
+        justify-content: center;
+        gap: 24px;
+    }
 }
