@@ -417,6 +417,10 @@
   width: 234px;
   background-size: cover;
 }
+.zurag-text {
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (min-width: 616px) {
   .body {
     display: flex;
