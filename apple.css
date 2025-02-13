@@ -10,11 +10,9 @@
   justify-content: flex-end;
   gap: 17px;
 }
-/* .tools {
-    display: flex;
-    position: absolute;
-    visibility: hidden;
-} */
+.tools {
+  display: none;
+}
 .text {
   height: 37px;
   font-size: 14px;
@@ -66,6 +64,7 @@
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
 }
+
 .buy {
   color: rgba(41, 151, 255, 1);
   width: 66px;
@@ -105,6 +104,23 @@
 .container2 .div {
   margin-top: 36px;
 }
+.container3-display {
+  width: 100%;
+  height: 692px;
+  margin-top: 12px;
+  background-image: url(./image/display/gift.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+.gift {
+  display: none;
+}
 .container3 {
   width: 100%;
   height: 500px;
@@ -123,6 +139,7 @@
 .two {
   color: black;
 }
+
 .container3 .div {
   margin-top: 36px;
 }
@@ -152,6 +169,9 @@
   justify-content: flex-end;
   align-items: center;
   gap: 16px;
+}
+.container4-display {
+  display: none;
 }
 .container5 {
   width: 100%;
@@ -257,6 +277,17 @@
 }
 .container9 .div {
   margin-top: 51px;
+}
+.container-10 {
+  display: none;
+}
+.container-10 .div {
+  margin-top: 51px;
+}
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .see {
   overflow: auto;
@@ -386,7 +417,7 @@
   width: 234px;
   background-size: cover;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 616px) {
   .body {
     display: flex;
     flex-wrap: wrap;
@@ -588,16 +619,234 @@
     font-size: 42px;
   }
 }
-@media only screen and (min-width: 1000px){
-  
-    .nav {
-        display: flex;
-        /* justify-content: center; */
-        
-    }  
-    .tools {
-        /* visibility:initial; */
-        justify-content: center;
-        gap: 24px;
-    }
+
+@media only screen and (min-width: 1000px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .tools {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .fa-solid {
+    display: none;
+  }
+  .container1 {
+    width: 100%;
+    height: 692px;
+    background-image: url(./image/display/iphone16pro.png);
+    justify-content: start;
+  }
+  .font1 {
+    font-size: 54px;
+  }
+  .container2 {
+    width: 100%;
+    height: 692px;
+    margin-top: 12px;
+    background-image: url(./image/display/iphone16.png);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .container3-display {
+    display: flex;
+  }
+  .gift-font {
+    color: black;
+  }
+  .gift {
+    display: block;
+    margin-bottom: 85px;
+  }
+  .container3 {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/ioad.png);
+    justify-content: start;
+  }
+  .hello2 {
+    margin-top: 254px;
+    font-size: 20px;
+  }
+  .display-text {
+    font-size: 18px;
+  }
+  .container4 {
+    display: none;
+  }
+  .container4-display {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/airpods2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+  }
+  .container5 {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .container6 {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/macbook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .container7,
+  .container8 {
+    display: none;
+  }
+  .container9 {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/trade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .container-10 {
+    width: 49%;
+    height: 580px;
+    margin-top: 12px;
+    background-image: url(./image/display/card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .apple-button {
+    color: rgba(41, 151, 255, 1);
+    width: 107px;
+    height: 36px;
+    border-radius: 999px;
+    border: 1px solid rgba(41, 151, 255, 1);
+  }
+  .see {
+    overflow: auto;
+    margin-bottom: 18px;
+    margin-top: 12px;
+  }
+  .scroll {
+    width: 12700px;
+    height: 668px;
+    position: relative;
+    display: flex;
+    gap: 18px;
+    margin-left: 18px;
+  }
+  .img1 {
+    background-image: url(./image/pad/Link1.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img2 {
+    background-image: url(./image/pad/Link2.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img3 {
+    background-image: url(./image/pad/link3.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img4 {
+    background-image: url(./image/pad/Link4.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img5 {
+    background-image: url(./image/pad/Link5.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img6 {
+    background-image: url(./image/pad/Link6.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img7 {
+    background-image: url(./image/pad/Link7.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img8 {
+    background-image: url(./image/pad/Link8.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img9 {
+    background-image: url(./image/pad/Link9.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img10 {
+    background-image: url(./image/pad/Link10.jpeg);
+    width: 1250px;
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dot {
+    margin: 0 14px;
+  }
+  .name {
+    font-size: 42px;
+  }
 }
