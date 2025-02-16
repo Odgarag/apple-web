@@ -293,6 +293,7 @@
   overflow: auto;
   margin-bottom: 18px;
   margin-top: 12px;
+  
 }
 .scroll {
   width: 2379px;
@@ -301,6 +302,10 @@
   display: flex;
   gap: 18px;
   margin-left: 18px;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .img1 {
   background-image: url(./image/link1.jpeg);
@@ -565,6 +570,10 @@
     display: flex;
     gap: 18px;
     margin-left: 18px;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
   .img1 {
     background-image: url(./image/pad/Link1.jpeg);
@@ -776,6 +785,10 @@
     display: flex;
     gap: 18px;
     margin-left: 18px;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
   .img1 {
     background-image: url(./image/pad/Link1.jpeg);
@@ -852,5 +865,13 @@
   }
   .name {
     font-size: 42px;
+  }
+}
+@keyframes move {
+  from {
+    transform: translatex(100%);
+  }
+  to {
+    transform: translatex(0%);
   }
 }
