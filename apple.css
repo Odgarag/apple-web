@@ -302,7 +302,7 @@
   display: flex;
   gap: 18px;
   margin-left: 18px;
-  animation: move 10s linear infinite;
+  /* animation: move 10s linear infinite; */
 }
 .img1 {
   background-image: url(./image/link1.jpeg);
@@ -370,6 +370,8 @@
   display: flex;
   gap: 18px;
   margin-left: 18px;
+  animation: move 10s linear infinite;
+
 }
 .zurag1 {
   background-image: url(./image/alpha.jpeg);
@@ -567,10 +569,10 @@
     display: flex;
     gap: 18px;
     margin-left: 18px;
-    animation-name: move;
+    /* animation-name: move;
     animation-duration: 15s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
   }
   .img1 {
     background-image: url(./image/pad/Link1.jpeg);
@@ -782,10 +784,10 @@
     display: flex;
     gap: 18px;
     margin-left: 18px;
-    animation-name: move;
+    /* animation-name: move;
     animation-duration: 20s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
   }
   .img1 {
     background-image: url(./image/pad/link1.jpeg);
